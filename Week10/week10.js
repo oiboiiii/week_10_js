@@ -34,9 +34,11 @@ console.log(multiply(x, y));
 // Напишите функцию greet, которая принимает один параметр firstName и выводит в консоль приветствие с этим именем.
 let firstName = 'Alice';
 
-function greet(firstName) { }
+function greet(firstName) {
+	return "Привет, " + firstName + "!"
+}
 
-greet(firstName);
+console.log(greet('Alice'));
 
 //Задание 5
 // Напишите функцию calculateArea, которая принимает два параметра width и height, вычисляет площадь прямоугольника и выводит в консоль результат.
