@@ -45,7 +45,9 @@ console.log(greet('Alice'));
 let width = 6;
 let height = 4;
 
-function calculateArea(width, height) { }
+function calculateArea(width, height) {
+	return calculateArea = width * height;
+}
 
 console.log(calculateArea(width, height));
 
