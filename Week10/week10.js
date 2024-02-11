@@ -24,7 +24,9 @@ console.log(sum(a, b));
 let x = 4;
 let y = 2;
 
-function multiply(x, y) { }
+function multiply(x, y) {
+	return multiply = x * y;
+}
 
 console.log(multiply(x, y));
 
