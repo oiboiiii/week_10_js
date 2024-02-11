@@ -13,7 +13,9 @@ console.log(firstFunction());
 let a = 5;
 let b = 3;
 
-function sum(a, b) {}
+function sum(a, b) {
+	return sum = a + b;
+}
 
 console.log(sum(a, b));
 
@@ -22,7 +24,7 @@ console.log(sum(a, b));
 let x = 4;
 let y = 2;
 
-function multiply(x, y) {}
+function multiply(x, y) { }
 
 console.log(multiply(x, y));
 
@@ -30,7 +32,7 @@ console.log(multiply(x, y));
 // Напишите функцию greet, которая принимает один параметр firstName и выводит в консоль приветствие с этим именем.
 let firstName = 'Alice';
 
-function greet(firstName) {}
+function greet(firstName) { }
 
 greet(firstName);
 
@@ -39,7 +41,7 @@ greet(firstName);
 let width = 6;
 let height = 4;
 
-function calculateArea(width, height) {}
+function calculateArea(width, height) { }
 
 console.log(calculateArea(width, height));
 
@@ -51,7 +53,7 @@ console.log(calculateArea(width, height));
 let c = 5;
 let d = 10;
 
-function secondFunction() {}
+function secondFunction() { }
 
 console.log(secondFunction()); //Выведет 15
 //Обратите ваше внимание, что мы можем передать в функцию любые аргументы и secondFunction подставит их на место параметров соответственно, перемножит их и вернёт результат.
@@ -60,7 +62,7 @@ console.log(secondFunction(2, 3)); //Выведет 5
 //Задание 8
 // Напишите функцию thirdFunction, которая принимает два параметра: f и g, и выводит в консоль их произведение. Если ни одно значение не передано, используйте значения по умолчанию: f = 2 и g = 3.
 
-function thirdFunction(f, g) {}
+function thirdFunction(f, g) { }
 
 console.log(thirdFunction()); //Выведет 6, так как используются значения по умолчанию
 console.log(thirdFunction(4, 5)); //Выведет 20, так как переданы параметры 4 и 5
@@ -100,7 +102,7 @@ console.log(squaredNumber); // Выведет 25
 // Допишите программу, которая вычисляет сколько лет прошло с летней олимпиады в Токио, Япония. Подсказка: 1. нужно создать переменную с текущим годом. 2. при вызове функции в круглые скобки нужно передать два параметра: текущий год и год летней олимпиады в Токио.
 const lastOlympicsYear = 2021;
 
-function calculateYearsSinceLastOlympics(a, b) {}
+function calculateYearsSinceLastOlympics(a, b) { }
 
 console.log(
 	'С момента летней олимпиады в Токио прошло ' + calculateYearsSinceLastOlympics() + ' года',
@@ -110,7 +112,7 @@ console.log(
 // Напишите программу, которая вычисляет возраст пользователя на основе его года рождения, будет выводить результат в консоль.
 const friendYearOfBirth = 1985;
 
-function calculateAge() {}
+function calculateAge() { }
 
 //Задание 17
 // Напишите функцию которая принимает ваш год рождения и возвращает ваш возраст. Обратите ваше внимание, что в глобальной зоне видимости есть переменная с текущим годом.
