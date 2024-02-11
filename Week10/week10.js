@@ -70,14 +70,16 @@ function secondFunction(c, d) {
 
 console.log(secondFunction(c, d)); //Выведет 15
 //Обратите ваше внимание, что мы можем передать в функцию любые аргументы и secondFunction подставит их на место параметров соответственно, перемножит их и вернёт результат.
-console.log(secondFunction(2, 3)); //Выведет 5
+//console.log(secondFunction(2, 3)); //Выведет 5
 
 //Задание 8
 // Напишите функцию thirdFunction, которая принимает два параметра: f и g, и выводит в консоль их произведение. Если ни одно значение не передано, используйте значения по умолчанию: f = 2 и g = 3.
 
-function thirdFunction(f, g) { }
+function thirdFunction(f = 2, g = 3) {
+	return thirdFunction = f * g;
+}
 
-console.log(thirdFunction()); //Выведет 6, так как используются значения по умолчанию
+//console.log(thirdFunction()); //Выведет 6, так как используются значения по умолчанию
 console.log(thirdFunction(4, 5)); //Выведет 20, так как переданы параметры 4 и 5
 
 //Задание 9
