@@ -64,9 +64,11 @@ printMessage();
 let c = 5;
 let d = 10;
 
-function secondFunction() { }
+function secondFunction(c, d) {
+	return secondFunction = c + d;
+}
 
-console.log(secondFunction()); //Выведет 15
+console.log(secondFunction(c, d)); //Выведет 15
 //Обратите ваше внимание, что мы можем передать в функцию любые аргументы и secondFunction подставит их на место параметров соответственно, перемножит их и вернёт результат.
 console.log(secondFunction(2, 3)); //Выведет 5
 
