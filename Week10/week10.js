@@ -93,8 +93,10 @@ console.log(greetings('кот'));
 // Создайте функцию calculateDifference с помощью Function Expression и правильно используйте её, чтобы вычесть два числа и вывести результат в консоль.
 // Ваш код
 
+let calculateDifference = function (h, i) {
+	console.log(h - i)
+}
 const result = calculateDifference(5, 3);
-
 console.log(result); //Выведет 2
 
 //Задание 11
