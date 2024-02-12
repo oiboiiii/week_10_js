@@ -161,5 +161,11 @@ console.log(calculateAge(1985));
 //Задание 17
 // Напишите функцию которая принимает ваш год рождения и возвращает ваш возраст. Обратите ваше внимание, что в глобальной зоне видимости есть переменная с текущим годом.
 
+const nowYear = 2024;
+
+function calculateMyAge(myYearOfBirth, nowYear = 2024) {
+	return calculateMyAge = nowYear - myYearOfBirth;
+}
+console.log(calculateMyAge(2005));
 //Задание 18
 // Напишите функцию, которая должна возводить число в заданную степень. Результат должен выводить в консоль в формате: console.log("Результат: " + result);
