@@ -141,10 +141,13 @@ findAnimal();
 // Допишите программу, которая вычисляет сколько лет прошло с летней олимпиады в Токио, Япония. Подсказка: 1. нужно создать переменную с текущим годом. 2. при вызове функции в круглые скобки нужно передать два параметра: текущий год и год летней олимпиады в Токио.
 const lastOlympicsYear = 2021;
 
-function calculateYearsSinceLastOlympics(a, b) { }
+function calculateYearsSinceLastOlympics(a, b) {
+	return calculateYearsSinceLastOlympics = b - a;
+
+};
 
 console.log(
-	'С момента летней олимпиады в Токио прошло ' + calculateYearsSinceLastOlympics() + ' года',
+	'С момента летней олимпиады в Токио прошло ' + calculateYearsSinceLastOlympics(2021, 2024) + ' года',
 );
 
 //Задание 16
