@@ -154,8 +154,10 @@ console.log(
 // Напишите программу, которая вычисляет возраст пользователя на основе его года рождения, будет выводить результат в консоль.
 const friendYearOfBirth = 1985;
 
-function calculateAge() { }
-
+function calculateAge(friendYearOfBirth, yearNow = 2024) {
+	return calculateAge = yearNow - friendYearOfBirth;
+}
+console.log(calculateAge(1985));
 //Задание 17
 // Напишите функцию которая принимает ваш год рождения и возвращает ваш возраст. Обратите ваше внимание, что в глобальной зоне видимости есть переменная с текущим годом.
 
