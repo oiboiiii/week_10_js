@@ -101,7 +101,9 @@ console.log(result); //Выведет 2
 
 //Задание 11
 // Напишите функцию calculateProduct с помощью Function Expression, которая будет принимать два параметра. Функция должна перемножить значения и вывести результат в консоль.
-
+let calculateProduct = function (ab, bb) {
+	console.log(ab * bb)
+}
 const total = calculateProduct(5, 3);
 
 console.log(total); //Выведет 15
