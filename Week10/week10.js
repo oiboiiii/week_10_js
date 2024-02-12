@@ -169,3 +169,8 @@ function calculateMyAge(myYearOfBirth, nowYear = 2024) {
 console.log(calculateMyAge(2005));
 //Задание 18
 // Напишите функцию, которая должна возводить число в заданную степень. Результат должен выводить в консоль в формате: console.log("Результат: " + result);
+
+function stepen(number, exp) {
+	return stepen = number ** exp;
+}
+console.log("Результат: " + stepen(3, 3));
