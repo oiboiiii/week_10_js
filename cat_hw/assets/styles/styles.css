@@ -7,7 +7,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 2px solid black;
+
     margin: 4rem 2rem 4rem 2rem;
     padding: 1rem;
 
@@ -19,7 +19,7 @@ h1 {
     flex-direction: row;
     margin-bottom: 4rem;
     justify-content: space-around;
-    border: 2px solid black;
+
 
 }
 
@@ -36,7 +36,7 @@ h1 {
 }
 
 #cats1 {
-    width: 30rem;
+    height: 20rem;
 
 }
 
