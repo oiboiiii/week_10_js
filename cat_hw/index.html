@@ -16,14 +16,26 @@
     </header>
     <main class="container">
         <div id="pictures">
-            <img src="/cat_hw/assets/images/cats1.jpeg" alt="картинка котят номер 1" id="cats1">
-            <!-- <img src="/cat_hw/assets/images/cats22.jpg" alt="картинка котят номер 2" id="cats2"> -->
+            <img id="cats1" src="/cat_hw/assets/images/cats1.jpeg" alt="картинка котят номер 1">
         </div>
         <div id="buttons">
-            <button class="button" onclick="showCats1">больше котят</button>
-            <button class="button" onclick="showCats2">еще больше котят</button>
+            <button onclick="showCats1()" class="button">предыдущая картинка</button>
+            <button onclick="showCats2()" class="button">следующая картинка</button>
         </div>
     </main>
 </body>
+<script>
+    let image = document.getElementById('cats1');
+    console.log(image);
+    function showCats2() {
+        image.src = '/cat_hw/assets/images/cats22.jpg';
+    }
+
+    let image2 = document.getElementById('cats1');
+    console.log(image2);
+    function showCats1() {
+        image2.src = '/cat_hw/assets/images/cats1.jpeg';
+    }
+</script>
 
 </html>
