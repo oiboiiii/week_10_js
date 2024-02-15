@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin: 4rem 2rem 4rem 2rem;
+    padding: 1rem;
+
+
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+    justify-content: space-around;
+    border: 2px solid black;
+
+}
+
+.button {
+    background-color: #000000;
+    font-size: 1rem;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+#cats1 {
+    width: 30rem;
+
+}
+
+#cats2 {
+    width: 30rem;
+
+
+}
